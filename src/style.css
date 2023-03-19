@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;1,400;1,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+.total-page {
+  background-image: url("https://img.freepik.com/premium-vector/abstract-smooth-blur-pastel-color-gradient-background-website-banner-graphic-design_120819-892.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeabackgrount;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow: scroll;
+}
+.navbar {
+  background: rgb(245, 245, 245, 0.4);
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+.options-navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.options-navbar ul li {
+  font-size: 1.2rem;
+  margin-left: 2.6rem;
+  font-weight: 400;
+}
+ul {
+  list-style-type: none;
+}
+.main-head-landing {
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+  font-family: "Chakra Petch", sans-serif;
+  padding-right: 1rem;
+  margin-top: 0;
+  font-weight: 300;
+  align-items: center;
+  /* justify-content: center; */
+}
+.main-header {
+  padding-right: 3rem;
+  /* text-align: justify; */
+}
+.main-header h3 {
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.explore-full {
+  height: 70vh;
+  display: grid;
+  place-content: center;
+  padding: 5rem;
+}
+.explore-sub {
+  width: 40vw;
+}
+.main-explore h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.line {
+  height: 7px;
+  background-color: rgba(255, 255, 255, 0.589);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.main-explore p {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.btn-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+.btn {
+  flex: 1 1 auto;
+  padding: 0.75rem 0.75rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-image: linear-gradient(
+    to right,
+    #84fab0 0%,
+    #b1e5ff 51%,
+    #84fab0 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #84fab0 0%,
+    #b1e5ff 51%,
+    #84fab0 100%
+  );
+  border: 1px solid whitesmoke;
+  background-size: 200% auto;
+
+  font-weight: 300 !important;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.jokes {
+  margin-left: 2rem;
+}
+.btn:hover {
+  background-position: right center;
+}
+.all-cards {
+  height: 80vh;
+  display: grid;
+  place-content: center;
+}
+.single-card {
+  width: 700px;
+  height: 400px;
+  background-color: honeydew;
+}
+select {
+  display: block;
+}
+.main-head-img img {
+  width: 70%;
+  border-radius: 30px;
+  margin-top: 4rem;
+}
+.content {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.card-btn {
+  display: grid;
+  margin: 0 auto;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Chakra Petch", sans-serif;
+}
+.emergency-choice {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  /* text-align: center; */
+  padding-left: 4rem;
+  padding: 2rem 0;
+}
+.emergency-choice input,
+.emergency-choice select {
+  margin: 3rem;
+}
+select {
+  display: block;
+  text-align: center;
+}
+.emergency-choice .btn {
+  display: block;
+  margin-left: 3rem;
+}
+/* new */
+.upload {
+  border: 2px dashed black;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 6px 15px black;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 6px 15px black;
+  border: 1px solid grey;
+  padding: 8px;
+}
